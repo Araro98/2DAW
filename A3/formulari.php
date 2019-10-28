@@ -50,8 +50,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo "No s'ha pujat correctament.\n";
     }
+    echo "<br>"
+    ?>
+        <a href=<?php echo $fichero_subido ?> > Fichero </a>
 
-    
+    <?php    
 } else {
 
 //pintar formulari    
